@@ -1,4 +1,4 @@
 # Site settings
 title: Developer Docs - Augle.me
-baseurl: "/developer/" # the subpath of your site, e.g. /blog/
+baseurl: "/developer-docs" # the subpath of your site, e.g. /blog/
 
