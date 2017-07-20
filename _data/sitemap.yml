@@ -1,0 +1,21 @@
+apps:
+  title: Apps
+  links:
+    -
+      link: '/apps/design'
+      text: 'Design'
+    -
+      link: '/apps/develop'
+      text: 'Develop'
+    -
+      link: '/apps/distribute'
+      text: 'Distribute'
+samples:
+  title: Samples
+  links:
+    -
+      link: '/samples/sample-1.html'
+      text: 'Simple - 1'
+    -
+      link: '/samples/sample-2.html'
+      text: 'Sample - 2'

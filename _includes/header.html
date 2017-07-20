@@ -1,21 +1,34 @@
-      <header class="mdl-layout__header mdl-layout__header--transparent">
-          <div class="mdl-layout__header-row">
-              <!-- Title -->
-              <span class="mdl-layout-title">Augle.me Developer Docs</span>
-              <!-- Add spacer, to align navigation to the right -->
-              <div class="mdl-layout-spacer"></div>
-              <!-- Navigation -->
-              <nav class="mdl-navigation">
-                  <a class="mdl-navigation__link" href="">Developer Console</a>
+      <!--<header class="mdl-layout__header mdl-layout__header&#45;&#45;transparent">-->
+          <!--<div class="mdl-layout__header-row">-->
+              <!--&lt;!&ndash; Title &ndash;&gt;-->
+              <!--<span class="mdl-layout-title">Augle.me Developer Docs</span>-->
+              <!--&lt;!&ndash; Add spacer, to align navigation to the right &ndash;&gt;-->
+              <!--<div class="mdl-layout-spacer"></div>-->
+              <!--&lt;!&ndash; Navigation &ndash;&gt;-->
+              <!--<nav class="mdl-navigation">-->
+                  <!--<a class="mdl-navigation__link" href="">Developer Console</a>-->
 
+              <!--</nav>-->
+          <!--</div>-->
+      <!--</header>-->
+      <!--<div class="mdl-layout__drawer">-->
+          <!--<span class="mdl-layout-title">Developer Docs</span>-->
+          <!--<nav class="mdl-navigation">-->
+              <!--<a class="mdl-navigation__link" href="">Developer Console</a>-->
+          <!--</nav>-->
+      <!--</div>-->
+      <!--<main class="mdl-layout__content">-->
+      <!--</main>-->
+          <header class="mdl-layout__header">
+              <div class="mdl-layout__header-row augle-header">
+                  {% include _title_bar.html %}
+              </div>
+          </header>
+          <div class="mdl-layout__drawer">
+              <span class="mdl-layout-title">{{site.data.sitemap[page.sidebar].title}}</span>
+              <nav class="mdl-navigation">
+                  {% for link in site.data.sitemap[page.sidebar].links} %}
+                    <a class="mdl-navigation__link" href="{{link.link | prepend: site.baseurl}}">{{link.text}}</a>
+                  {% endfor %}
               </nav>
           </div>
-      </header>
-      <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title">Developer Docs</span>
-          <nav class="mdl-navigation">
-              <a class="mdl-navigation__link" href="">Developer Console</a>
-          </nav>
-      </div>
-      <main class="mdl-layout__content">
-      </main>
