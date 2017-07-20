@@ -4,6 +4,10 @@
 @import "base";
 @import "syntax-highlighting";
 
+p{
+  color: #757575;
+  font: 18px/24px Roboto,sans-serif
+}
 .home-card{
   height: 215px;
   .mdl-card__supporting-text{
@@ -11,4 +15,11 @@
 }
 .mdl-layout__header-row.augle-header{
   background-color: white;
+}
+.main-link-card{
+  width:100%;
+  min-height:60px;
+  .mdl-card__title{
+    height:60px;
+  }
 }
