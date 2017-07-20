@@ -2,6 +2,9 @@ apps:
   title: Apps
   links:
     -
+        link: '/apps/get-started.html'
+        text: 'Get Started'
+    -
       link: '/apps/design'
       text: 'Design'
     -
