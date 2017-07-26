@@ -17,7 +17,6 @@ Please refer to app policy to know further
 ```
 Know about prerequisite softwored before you want to build the app
 ```
-<hr>
 ## Step 2 - Change `modelId`
 
 Open Manifest.json file
@@ -33,7 +32,6 @@ Enter model ID
 ```
 Example, change `modelId: "com.example"` to what your preferred model id
 
-<hr>
 ## Step 3 - Build Locally
 
 Run
@@ -42,8 +40,6 @@ npm install
 npm run build
 ```
 To build a package and check for release.arpk file
-
-<hr>
 ## Step 4 - Create Listing in developer console
 
 Go to https://www.augle.me/developer/publish
@@ -56,8 +52,7 @@ Then upload the `release.arpk` you have generated in Step 3.
 
 Click Publish
 
-<hr>
-## Step 5 - Test you app through augle mobile app.
+## Step 5 - Test and distribute your app
 
 Open you Augle Mobile app. Android or iOS.
 
