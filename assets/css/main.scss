@@ -55,3 +55,16 @@ pre >code {
     text-align: left !important;
   }
 }
+.notice {
+  padding: 20px;
+  &.important{
+    background-color: orangered;
+    color: white;
+  }
+  &.normal{
+    background-color: cornflowerblue;
+  }
+  &.tip{
+    background-color: greenyellow;
+  }
+}
