@@ -41,10 +41,15 @@ pre >code {
   }
   h2,h3,h4,h5,h6{
     color: black;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     margin-bottom: 0;
-    border-bottom: 1px solid lightgray;
   }
+}
+hr{
+  height: 1px;
+  margin: 7px 0 12px;
+  border: 0;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .error-codes-table{
