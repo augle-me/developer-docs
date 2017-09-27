@@ -1,6 +1,6 @@
 ---
 layout: 'doc'
-sidebar: 'apps'
+sidebar: 'developer-apps'
 ---
 
 ## Error codes @ while releasing

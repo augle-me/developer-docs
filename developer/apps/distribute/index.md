@@ -1,6 +1,7 @@
 ---
 layout: 'doc'
-sidebar: 'apps'
+sidebar: 'developer-apps'
+id: 'distribute'
 ---
 
 You can distribute models online using our web store either for free or for some cost.

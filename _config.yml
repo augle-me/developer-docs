@@ -1,6 +1,6 @@
 # Site settings
 name: augle.me
 title: Developer Docs
-baseurl: "/developer-docs" # the subpath of your site, e.g. /blog/
+baseurl: "/docs" # the subpath of your site, e.g. /blog/
 
 markdown: kramdown

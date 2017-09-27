@@ -1,6 +1,7 @@
 ---
 layout: 'doc'
-sidebar: 'apps'
+sidebar: 'developer-apps'
+id: 'design'
 ---
 
 # Overview of Direct Apps

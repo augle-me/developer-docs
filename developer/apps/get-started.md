@@ -1,6 +1,7 @@
 ---
 layout: 'doc'
-sidebar: 'apps'
+sidebar: 'developer-apps'
+id: 'getting-started'
 ---
 
 # Get started in 5 Steps using `Hello, world!` example
@@ -64,4 +65,4 @@ You can see all you apps, along with the one you have published now.
 
 ## What's next
 
-Go to [Develop](/developer-docs/apps/develop) Section to know more about building complex apps.
+Go to [Develop](/docs/developer/apps/develop) Section to know more about building complex apps.

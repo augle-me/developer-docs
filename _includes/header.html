@@ -28,7 +28,8 @@
               <span class="mdl-layout-title">{{site.data.sitemap[page.sidebar].title}}</span>
               <nav class="mdl-navigation">
                   {% for link in site.data.sitemap[page.sidebar].links} %}
-                    <a class="mdl-navigation__link" href="{{link.link | prepend: site.baseurl}}">{{link.text}}</a>
+                    <a class="mdl-navigation__link {%if link.linkId == page.id %} mdl-navigation__link--current {% endif%}"
+                       href="{{link.link | prepend: site.baseurl}}">{{link.text}}</a>
                   {% endfor %}
               </nav>
           </div>

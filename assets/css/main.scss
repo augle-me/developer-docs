@@ -10,7 +10,20 @@ p{
 }
 .home-card{
   height: 215px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  .mdl-card__title{
+    flex: 0 1 auto;
+    align-self: auto;
+  }
   .mdl-card__supporting-text{
+    flex: 1 0 auto;
+    align-self: auto;
+  }
+  .mdl-card__actions{
+    flex: 0 1 auto;
+    align-self: auto;
   }
 }
 .mdl-layout__header-row.augle-header{
@@ -72,4 +85,7 @@ hr{
   &.tip{
     background-color: greenyellow;
   }
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover{
+  color: inherit;
 }

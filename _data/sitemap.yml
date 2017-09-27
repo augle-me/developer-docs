@@ -1,24 +1,28 @@
-apps:
-  title: Apps
-  links:
-    -
-        link: '/apps/get-started.html'
+developer-apps:
+    title: Apps
+    links:
+      -
+        linkId: 'getting-started'
+        link: '/developer/apps/get-started.html'
         text: 'Get Started'
-    -
-      link: '/apps/design'
-      text: 'Design'
-    -
-      link: '/apps/develop'
-      text: 'Develop'
-    -
-      link: '/apps/distribute'
-      text: 'Distribute'
-samples:
-  title: Samples
-  links:
-    -
-      link: '/samples/sample-1.html'
-      text: 'Simple - 1'
-    -
-      link: '/samples/sample-2.html'
-      text: 'Sample - 2'
+      -
+        linkId: 'design'
+        link: '/developer/apps/design'
+        text: 'Design'
+      -
+        linkId: 'develop'
+        link: '/developer/apps/develop'
+        text: 'Develop'
+      -
+        linkId: 'distribute'
+        link: '/developer/apps/distribute'
+        text: 'Distribute'
+developer-samples:
+    title: Samples
+    links:
+      -
+        link: '/developer/samples/sample-1.html'
+        text: 'Simple - 1'
+      -
+        link: '/developer/samples/sample-2.html'
+        text: 'Sample - 2'
