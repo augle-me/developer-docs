@@ -6,48 +6,51 @@ id: 'design'
 
 # Overview of Direct Apps
 
-Direct app, one of the primary apps types Augle supports, other are Via Apps. Direct apps gives a developer more freedom and to
-work on the augle platform. They reach to the audience whom you are expecting to reach. For the Direct Apps developers
-the in charge of it content, delivery location.
+Direct apps, one of the primary app types supported by Augle and the only other type is Via Apps. 
+Direct apps gives a developer more freedom to work on the Augle Platform, because they are developed and deployed
+by the developers themselves reaching wider audience across the globle. 
+Developers has to take care of the content development, publishing and location (Augle Perimeters)
+Of course, they can always contact Augle support for any issues.
 
 ## Why they named as Direct apps?
 <hr/>
+Direct apps are deployed directly on to Augle Perimeters by the Developer . There is no other party(Business or Agency) invovlved between Developer and Augle 
+Hence the name "Direct Apps"
 
-Direct apps are served by the Augle platform, to the developer specified location directly with any other User or system intervention.
-As they served directly to the location, they named as Direct Apps.
 
-
-## Design of a Direct app?
+## Design principles of a Direct app
 <hr/>
-While developing the direct app, developer have to make sure that apps will serve a specific
-purpose of the location they were serving. In case the apps was not appropriate to the location then it may lead to bad
-rating, Augle platform will hold the in appropriate apps and those apps will not be served further.
+1. The App has a Specific value @ Specific Location or within a proximity range (i.e Augle perimeter) 
+2. The content is useful to the Mobile user while indentified within the proximity range 
+3. Direct Apps are always public, they can never be private 
 
+Note:
 Direct app will only have end user UI. All the Augle SDK features are available to the developer but with few limitations
 such as App can never be made private.
 
+
 ## How the direct apps delivered
 <hr/>
-There are 3 types of distribution channels for the Direct apps, thes distribution channes are avaible
-while you publish the through developer console.
+There are 3 types of distribution channels for the Direct apps
+while you publish the through developer console
 
  - **Google Place**
- - **Augle and Community Primeter**
+ - **Augle and Community Perimeter**
  - **General**
 
-you can use all three distribution channels or combination of three to increase your app user reach. Moreover, the app you
-are developing also determines what type of distribution channel you have to choose.
+You can use all three distribution channels or combination of three to increase your app audience. Moreover, the content of the App you
+would be developing will also determine the type of distribution channel you should choose. 
 
-**Google Place:** Using this distribution channel, you can serve your app to the Google place Id. You have a provision of
+**Google Place:** Using this distribution channel, you can deploy your app to the Google place Id. You have a provision of
 adding maximum of 10 Google Place Id to you app. However, make sure you do not usually have apps at two different places. If you
-thing that your app can serve the purpose that the place id they you can go ahead and add them. [Read Mpre]()
+think that your app can serve the purpose that the place id they you can go ahead and add them. [Read More]()
 
-**Augle and Community perimeter:** Augle team will create few perimeters with can't have owner, like non private,
-non business perimeters where no one can be a legal in charge except Govt. In addition, there are few perimeters, which were created
-by the community. Direct apps can served to these locations when developer use this
-distribution channel. You have a provision of adding maximum of 10 Augle or Community perimeters. [Read Mpre]()
+**Augle and Community perimeter:** Augle team will create few perimeters which can't have owner and these are usually public places,
+where these perimeter have no sole legal ownership except Govt. In addition, there are few perimeters, which were created
+by the community. Direct apps can deployed to these locations when developer using this distribution channel.
+You have a provision of adding maximum of 10 Augle or Community perimeters. [Read More]()
 
-**General:** In case your app doesn't belongs to specific location and it belongs to specific types of locations then
-can using General Distribution Channel to increase you app reach count.
+**General:** In case your app doesn't belongs to specific location and it belongs to specific type of locations then you 
+can deploy using General Distribution Channel to increase you app audience.
 
 To know about the Augle Perimeter detection and priorities of perimeter [see this]()
