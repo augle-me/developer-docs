@@ -4,5 +4,5 @@ sidebar: 'developer-apps'
 id: 'design'
 ---
 
-# Type of apps you can deploy on augle
+# Type of Apps that can be Deployed on Augle
 comming soon
