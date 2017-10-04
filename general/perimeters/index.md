@@ -6,6 +6,8 @@ layout: 'doc'
 
 ## Overview
 
-Perimeter is virtual marking on the map which have coordinates when ever people enter that perimeter augle load the appropriate content
+Augle works only with Perimeters
+Perimeter in Augle is a virtual ring-fenced area on the map with GPS coordinates. 
+When mobile users (who installed Augle app) enter the location proximity within Augle perimeter,crisp actionable information is loaded directly into the Augle app. When the user exits the location proximity the content is offloaded automatically.
 
 [Types of perimeter](/docs/general/perimeters/perimeter-types)
