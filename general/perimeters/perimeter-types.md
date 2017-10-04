@@ -6,16 +6,24 @@ layout: 'doc'
 
 ## Overview
 
-Augle is perimeter based information providing and functionality serving platform with few expections( such as augel spots and google places). What exactly is the [perimeter](/docs/general/perimeters/)
+**Augle** is an app backed by a strong platfrom that works within Proximity of a specific Location. The proximity in Augle is defined as  perimeter that will be identified by certain GPS coordinates and this perimeter is ring-fenced to deploy apps
 
-Follow virtual assets are supported by Augle
+What exactly is the [perimeter](/docs/general/perimeters/)
+
+Following are Perimeter Types supported by Augle
 
 #### Perimeter Bases
 
 <!-- All the below are just more 2-3 line elobration need and detailed explaination is needed in other page pages are avaible at /docs/general/perimeters/* perovided links -->
-**Augle Perimeters:** Created by augle [know more](/docs/general/perimeters/augle-perimeter)
+**Augle Perimeters:**
+**Augle Perimeter** is an in-house perimeter created by default by Augle itself. Augle have identified and created some perimeters. These can be .... <!-- more information required here --> 
 
-**Community Perimeters:** Created by anybody and useful for specific purpose and for specific Community. [know more](/docs/general/perimeters/community-perimeter)
+[know more](/docs/general/perimeters/augle-perimeter)
+
+**Community Perimeters:** 
+**Community Perimeters** are created for specific purpose , for example a community for block of apartments, a social club etc 
+The community owner/organiser has full control of what information/content to be pushed to the community memebrs 
+[know more](/docs/general/perimeters/community-perimeter)
 
 **Business Perimeters:** Created by business and maintained by them. [know more](/docs/general/perimeters/business-perimeter)
 
