@@ -8,8 +8,8 @@ This site will serve as single location for help, information, API References, s
 
 This site has two major sections.
 
-(## Developer Documentation)[/docs/developer/]
+## [Developer Documentation](/docs/developer/)
 
-(## General Help)[/docs/general/]
+## [General Help](/docs/general/)
 
 
