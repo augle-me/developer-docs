@@ -13,4 +13,4 @@ The ring-fenced area is claimed by business through Augle business claiming proc
 
 These apps are always called "Via apps" where the Business can only deploy and have full control of what sort of content/information to be pushed to the mobile users within their Business location proximity. 
 
-What exactly is the [perimeter](/docs/general/perimeters/)
+What exactly is the [perimeter](/general/perimeters/)

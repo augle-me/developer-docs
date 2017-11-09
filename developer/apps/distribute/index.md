@@ -6,7 +6,7 @@ id: 'distribute'
 
 You can distribute models online using our web store either for free or for some cost.
 
-To distribute your model you need to bundle you model in a `.arpk` file, To know more information about the `.arpk` file [read this](/developer/docs/#whatisarpk)
+To distribute your model you need to bundle you model in a `.arpk` file, To know more information about the `.arpk` file [read this](/developer#whatisarpk)
 
 In this article we explain the following things
 

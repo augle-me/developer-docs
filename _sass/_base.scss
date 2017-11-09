@@ -1,9 +1,11 @@
 $primary-color: #4caf50;
+$main-bg: #fafafa;
+
 
 body {
-  background-color: #fafafa;
+  background-color: $main-bg;
+  font: 400 16px/24px Roboto,sans-serif;
 }
-
 pre,
 code {
   font-family: 'Liberation Mono', Consolas, Monaco, 'Andale Mono', monospace;
@@ -26,6 +28,9 @@ code {
   font-size: 90%;
   white-space: pre-wrap;
 }
+
+/*
+
 
 .mdl-layout__drawer {
   background-color: #fff;
@@ -223,3 +228,4 @@ nav.toc {
 .mdl-mini-footer {
   padding-left: 40px;
 }
+*/

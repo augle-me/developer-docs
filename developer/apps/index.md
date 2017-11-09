@@ -2,38 +2,23 @@
 layout: category-home
 title: Design, Develop & Distribute
 sidebar: 'developer-apps'
-linksBlock:
-    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-      <a href="get-started.html"><div class="mdl-card mdl-shadow--2dp main-link-card">
-        <div class="mdl-card__title">
-          <strong>Get Started</strong>
-        </div>
-      </div></a>
-    </div>
-    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-      <a href="design"><div class="mdl-card mdl-shadow--2dp main-link-card">
-        <div class="mdl-card__title">
-          <strong>Design</strong>
-        </div>
-      </div></a>
-    </div>
-    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-      <a href="develop"><div class="mdl-card mdl-shadow--2dp main-link-card">
-        <div class="mdl-card__title">
-          <strong>Develop</strong>
-        </div>
-      </div></a>
-    </div>
-    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-      <a href="distribute"><div class="mdl-card mdl-shadow--2dp main-link-card">
-        <div class="mdl-card__title">
-          <strong>Distribute</strong>
-        </div>
-      </div></a>
-    </div>
+breadcrumb: Apps
+linkBlocks:
+  -
+    name: Get Started
+    link: get-started.html
+  -
+    name: Design
+    link: design
+  -
+    name: Develop
+    link: develop
+  -
+    name: Distribute
+    link: distribute
 ---
 
-# Apps
+## Apps
 
 Power of augle come from the app it provides to the user at a given location. Augle Platform and SDK, will help to develop those most intivative app for the uses.
 

@@ -6,7 +6,6 @@
 
 p{
   color: #757575;
-  font: 18px/24px Roboto,sans-serif
 }
 .home-card{
   width: 100%;
@@ -14,22 +13,13 @@ p{
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  .mdl-card__title{
-    flex: 0 1 auto;
-    align-self: auto;
-  }
-  .mdl-card__supporting-text{
-    flex: 1 0 auto;
-    align-self: auto;
-  }
-  .mdl-card__actions{
-    flex: 0 1 auto;
-    align-self: auto;
+  .card-content{
+    overflow: hidden;
   }
 }
-.mdl-layout__header-row.augle-header{
-  background-color: white;
-}
+//.mdl-layout__header-row.augle-header{
+//  background-color: white;
+//}
 .main-link-card{
   width:100%;
   min-height:60px;
@@ -89,4 +79,23 @@ hr{
 }
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover{
   color: inherit;
+}
+
+.max-padding{
+  padding: 20px;
+}
+.page-footer-custom{
+  padding-top: 0;
+}
+.breadcrumb:before{
+  color: #607d8b !important;
+}
+.breadcrumb-nav .nav-wrapper{
+  padding-left: 10px;
+  background-color: $main-bg;
+}
+nav.breadcrumb-nav{
+  margin-top: 5px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }

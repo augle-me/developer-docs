@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: developer-docs-home
+breadcrumb: Developer Docs
 ---
 
-<h1 class="page-title">Developer Docs</h1>
+## Developer Docs
