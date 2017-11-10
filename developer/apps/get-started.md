@@ -1,14 +1,10 @@
 ---
-layout: 'doc'
+layout: 'developer-doc'
 sidebar: 'developer-apps'
 breadcrumb: Get started
 id: 'getting-started'
+title: Get started in 5 Steps using <strong>Hello, world!</strong> example
 ---
-
-### Get started in 5 Steps using `Hello, world!` example
-
-
-<br/>
 #### Step 1 - Get the app sample template
 
 Clone project to the your local machine `https://github.com/augle/augle-app-seed`
@@ -30,7 +26,7 @@ Enter model ID
 	"modelId": "com.example.apps.sampleapp"
 }
 ```
-Example, change `modelId: "com.example"` to what your preferred model id
+Example, change `modelId: "com.example.apps.sampleapp"` to what your preferred model id
 
 #### Step 3 - Build Locally
 

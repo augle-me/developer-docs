@@ -1,5 +1,5 @@
 ---
-layout: 'doc'
+layout: 'general-doc'
 ---
 
 # Perimter types in augle

@@ -1,4 +1,6 @@
+
 <nav class="breadcrumb-nav">
+    <!--breadcrumb-nav-->
     <div class="nav-wrapper">
         {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
         {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}

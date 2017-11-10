@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+    {% include header.html %}
+    {% include _title_bar.html %}
+    <div class="container">
+
+
+        {% include breadcrumbs-strip.html %}
+        <div class="page-content">
+            <div class="row">
+                <div class="col s12 m9 ">
+                    {{ content }}
+                </div>
+                <div class="col s12 m3 pull-s12">
+                    <ul id="submenu">
+
+                    </ul>
+                    <script type="text/javascript">
+                        $( document ).ready(function() {
+                            var submenu = $('#submenu');
+                            if ($(window).scrollTop() >= 260) {
+                                submenu.addClass('fixed-header');
+                            }
+
+                            $(window).scroll(function(){
+                                if ($(window).scrollTop() >= 260) {
+                                    submenu.addClass('fixed-header');
+                                }
+                                else {
+                                    submenu.removeClass('fixed-header');
+                                }
+                            });
+                            $('h4').each(function(index, item) {
+                                console.log();
+                                submenu.append("<li><a class='submenu-item' href='#"+$(item).attr('id')+"'>"+$(item).text()+"</a></li>");
+                            });
+                        })
+                    </script>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    {% include footer.html %}
+</body>
+</html>

@@ -1,12 +1,10 @@
 ---
-layout: 'doc'
+layout: 'developer-doc'
 sidebar: 'developer-apps'
 breadcrumb: Design
 id: 'design'
+title: Designing an app
 ---
-
-### Design
-
 Designing the app is simple and augle provides most of the functionality, you have concentrate on problem you want to solve using the task.
 
 #### Desgin, Terms and Condition
@@ -18,7 +16,7 @@ Designing the app is simple and augle provides most of the functionality, you ha
 
 **Important Note**
 Augle periodically check for design compliances. In case your app doesn't met augle design standards terms and conditions then you app will gracefully ignored by the augle AI engine with out any prior intimation.
-{: .notice .important}
+{: .notice .important }
 
 #### Design best practices
 <hr/>

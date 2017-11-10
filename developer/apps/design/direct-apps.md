@@ -1,10 +1,9 @@
 ---
-layout: 'doc'
+layout: 'developer-doc'
 sidebar: 'developer-apps'
 id: 'design'
+title: Overview of Direct Apps
 ---
-
-# Overview of Direct Apps
 
 Direct apps, one of the primary app types supported by Augle and the only other type is Via Apps. 
 Direct apps gives a developer more freedom to work on the Augle Platform, because they are developed and deployed
@@ -12,13 +11,13 @@ by the developers themselves reaching wider audience across the globle.
 Developers has to take care of the content development, publishing and location (Augle Perimeters)
 Of course, they can always contact Augle support for any issues.
 
-## Why they named as Direct apps?
+##### Why they named as Direct apps?
 <hr/>
 Direct apps are deployed directly on to Augle Perimeters by the Developer . There is no other party(Business or Agency) invovlved between Developer and Augle 
 Hence the name "Direct Apps"
 
 
-## Design principles of a Direct app
+##### Design principles of a Direct app
 <hr/>
 1. The App has a Specific value @ Specific Location or within a proximity range (i.e Augle perimeter) 
 2. The content is useful to the Mobile user while indentified within the proximity range 
@@ -29,7 +28,7 @@ Direct app will only have end user UI. All the Augle SDK features are available 
 such as App can never be made private.
 
 
-## How the direct apps delivered
+##### How the direct apps delivered
 <hr/>
 There are 3 types of distribution channels for the Direct apps
 while you publish the through developer console

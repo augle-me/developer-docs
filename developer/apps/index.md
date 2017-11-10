@@ -3,6 +3,7 @@ layout: category-home
 title: Design, Develop & Distribute
 sidebar: 'developer-apps'
 breadcrumb: Apps
+title: Apps
 linkBlocks:
   -
     name: Get Started
@@ -17,9 +18,6 @@ linkBlocks:
     name: Distribute
     link: distribute
 ---
-
-## Apps
-
 Power of augle come from the app it provides to the user at a given location. Augle Platform and SDK, will help to develop those most intivative app for the uses.
 
 **Get Started:** Takes you from scratch to testing your app in 5 steps

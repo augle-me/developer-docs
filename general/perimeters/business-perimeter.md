@@ -1,5 +1,5 @@
 ---
-layout: 'doc'
+layout: 'general-doc'
 ---
 
 # Business Perimeter
