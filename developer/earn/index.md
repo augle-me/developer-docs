@@ -1,5 +1,6 @@
 ---
 layout: 'developer-doc'
+breadcrumb: Earn
 title: Earn
 ---
 
@@ -15,10 +16,10 @@ Monetization options vary according to the Type of app. Available types of apps 
 
 ##### Direct Apps
 
-**Admob:**, You can place admob ad units in you apps to generate revenue. Which give to display the different types of
+[**Admob:**](admob.html) You can place admob ad units in you apps to generate revenue. Which give to display the different types of
 ads at different locations in Augle generate revenue.
 
-**In-app Purchases:** You can create in-app products and sell then to generate revenue. With the help of Augle payment
+**In-app Purchases:** You can create in-app products and sell them to generate revenue. With the help of Augle payment
 gateway you can easily charge the Users without bothering about the complex payment gateways.
 
 **Important:** Direct Apps cannot be paid app, it can be either free or freemium app
