@@ -2,6 +2,5 @@
 layout: 'developer-doc'
 sidebar: 'developer-apps'
 id: 'develop'
-breadcrumb: Develop
+title: 'Augle ad display positions'
 ---
-# Develop
