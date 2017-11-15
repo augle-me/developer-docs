@@ -7,9 +7,9 @@ title: 'Step by Step guide for integrating Admob ads'
 
 #### Steps
 
-This is in-depth Step By step guide to integrate Admob ads to your Augle app. By the end of the guide
-You should know how to integrate Admob ad unit to Augle app. Dependening of the knowledge you have on the Admob you can
-skip few Steps. For more understanding you can refer to Video Tutorial and Some Samples.
+This is in-depth step by step guide to integrate Admob ads to your Augle app. By the end of the guide
+you should know how to integrate Admob Ad unit to Augle app. Depending on the knowledge you have on the Admob you can
+skip few steps. For more understanding you can refer to [Video Tutorial](/developer/videos/).
 
 There are 4 steps involved in integration.
 
@@ -20,21 +20,24 @@ There are 4 steps involved in integration.
 
 #### Step 1: Create Admob account
 
-If you already have an Admob account you can skip this sections. If not please proceed to Admob website to create an
-admob account.
+If you already have an Admob account you can move on to next step 2. If not please proceed to
+[Admob](https://www.google.co.in/admob/) website to create an Admob account.
 
 #### Step 2: Create Ad unit for Augle usage
 
-**Please don't skip this section**. Here is the tricky bit. Few of you might even know how to create the ad unit.
-There is lot of documentation on the Admob website on how to create the ad unit. But in this case you care creating
-your ad to use in Augle Mobile app. So first,
+**This is important section.**{: .red-text} There is lot of documentation on the Admob website
+on how to create the ad unit. But when you are creating an Ad unit to use with Augle Mobile app. You have to
+do few thing differently then usual.
 
-After creating Admob account, Click
-Create App
+So, after creating Admob account.
 
-In the search, enter Augle, and select an app name Augle. You might seen two apps with same name one for Android and
-one for iOS.(Please also look for Augle icon) to make sure you are selecting the write app. [See](#things-to-know)
-things to know section for more information.
+![Admob, ADD APP](/assets/images/admob-add-app.jpg "Admob, ADD APP")
+{: .fit-image}
+Click, **ADD APP**{: .green-text}
+
+In the search, enter Augle, and select an app name Augle(You might see two Apps with same name one for Android and
+one for iOS. Please also look for Augle icon) to make sure you are selecting the Augle app. See
+[things to know](#things-to-know) for more information on what app should be selected.
 
 // Screen shots about selecting augle app
 
@@ -42,7 +45,7 @@ Once a app is created, click on creating ad unit. To what kind of app ad format 
 
 Once you create the ad unit get the ad unit id, you need this in the next step.
 
-// Screen on getting the
+// Screen shot on getting the
 
 #### Step 3: Add the ad unit to Augle Developer Console
 
@@ -117,7 +120,7 @@ Finally in Step 4, In your code you ask to display your app
     // This is to load add at the default position, which is TOP.
     if(Augle.getPlatform() === 'ios'){
         Augle.loadAd('FIRST_AD_IOS')
-    }else if(Augle.getPlatform() === 'ios'){
+    }else if(Augle.getPlatform() === 'android'){
         Augle.loadAd('FIRST_AD_ANDROID')
     }
 ```
